@@ -17,3 +17,7 @@ Route::get('/', function () {
 Route::get('/add',function(){
 	echo "这是第一个用户添加的页面";
 });
+
+Route::get('/insert',function(){
+	echo "这是插入用户模块";
+});
